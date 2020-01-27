@@ -71,7 +71,7 @@
             this.button_AddCountry.TabIndex = 0;
             this.button_AddCountry.Text = "Добавить";
             this.button_AddCountry.UseVisualStyleBackColor = true;
-            this.button_AddCountry.Click += new System.EventHandler(this.button_AddCountry_Click);
+            this.button_AddCountry.Click += new System.EventHandler(this.Button_AddCountry_Click);
             // 
             // label_CountryCode
             // 
@@ -98,7 +98,7 @@
             this.listCountry.Name = "listCountry";
             this.listCountry.Size = new System.Drawing.Size(120, 95);
             this.listCountry.TabIndex = 4;
-            this.listCountry.SelectedIndexChanged += new System.EventHandler(this.listCountry_SelectedIndexChanged);
+            this.listCountry.SelectedIndexChanged += new System.EventHandler(this.ListCountry_SelectedIndexChanged);
             // 
             // textBox_CountryCode
             // 
@@ -197,7 +197,7 @@
             this.button_AddCar.TabIndex = 16;
             this.button_AddCar.Text = "Добавить";
             this.button_AddCar.UseVisualStyleBackColor = true;
-            this.button_AddCar.Click += new System.EventHandler(this.button_AddCar_Click);
+            this.button_AddCar.Click += new System.EventHandler(this.Button_AddCar_Click);
             // 
             // listBox_CarsList
             // 
@@ -206,7 +206,7 @@
             this.listBox_CarsList.Name = "listBox_CarsList";
             this.listBox_CarsList.Size = new System.Drawing.Size(251, 95);
             this.listBox_CarsList.TabIndex = 17;
-            this.listBox_CarsList.SelectedIndexChanged += new System.EventHandler(this.listBox_CarsList_SelectedIndexChanged_1);
+            this.listBox_CarsList.SelectedIndexChanged += new System.EventHandler(this.ListBox_CarsList_SelectedIndexChanged);
             // 
             // label6
             // 
@@ -279,7 +279,7 @@
             this.listBox_ServiceCarsInService.Name = "listBox_ServiceCarsInService";
             this.listBox_ServiceCarsInService.Size = new System.Drawing.Size(229, 95);
             this.listBox_ServiceCarsInService.TabIndex = 7;
-            this.listBox_ServiceCarsInService.SelectedIndexChanged += new System.EventHandler(this.listBox_ServiceCarsInService_SelectedIndexChanged);
+            this.listBox_ServiceCarsInService.SelectedIndexChanged += new System.EventHandler(this.ListBox_ServiceCarsInService_SelectedIndexChanged);
             // 
             // label10
             // 
@@ -347,7 +347,7 @@
             this.button_AddCarToService.TabIndex = 8;
             this.button_AddCarToService.Text = "Добавить";
             this.button_AddCarToService.UseVisualStyleBackColor = true;
-            this.button_AddCarToService.Click += new System.EventHandler(this.button_AddCarToService_Click);
+            this.button_AddCarToService.Click += new System.EventHandler(this.Button_AddCarToService_Click);
             // 
             // Form1
             // 

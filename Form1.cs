@@ -16,7 +16,7 @@ namespace Labs_44
             ShowCarsType();
         }
 
-        private void button_AddCountry_Click(object sender, EventArgs e)
+        private void Button_AddCountry_Click(object sender, EventArgs e)
         {
             string countryCode = textBox_CountryCode.Text;
             string countryName = textBox_CountryName.Text;
@@ -34,7 +34,7 @@ namespace Labs_44
             }
         }
 
-        private void listCountry_SelectedIndexChanged(object sender, EventArgs e)
+        private void ListCountry_SelectedIndexChanged(object sender, EventArgs e)
         {
             ListBox listCountry = (ListBox)sender;
             int currentIndex = listCountry.SelectedIndex;
@@ -67,7 +67,7 @@ namespace Labs_44
             });
         }
 
-        private void button_AddCar_Click(object sender, EventArgs e)
+        private void Button_AddCar_Click(object sender, EventArgs e)
         {
 
             
@@ -121,7 +121,7 @@ namespace Labs_44
             });
         }
 
-        private void listBox_CarsList_SelectedIndexChanged_1(object sender, EventArgs e)
+        private void ListBox_CarsList_SelectedIndexChanged(object sender, EventArgs e)
         {
             ListBox carsList = (ListBox)sender;
             int currentIndex = carsList.SelectedIndex;
@@ -143,7 +143,7 @@ namespace Labs_44
 
         }
 
-        private void button_AddCarToService_Click(object sender, EventArgs e)
+        private void Button_AddCarToService_Click(object sender, EventArgs e)
         {
             try
             {
@@ -182,7 +182,7 @@ namespace Labs_44
             });
         }
 
-        private void listBox_ServiceCarsInService_SelectedIndexChanged(object sender, EventArgs e)
+        private void ListBox_ServiceCarsInService_SelectedIndexChanged(object sender, EventArgs e)
         {
             ListBox serviceList = (ListBox)sender;
             int currentIndex = serviceList.SelectedIndex;
